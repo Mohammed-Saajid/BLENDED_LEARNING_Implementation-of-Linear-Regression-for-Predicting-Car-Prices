@@ -1,31 +1,3 @@
-# BLENDED_LEARNING
-# Implementation-of-Linear-Regression-for-Predicting-Car-Prices
-## AIM:
-To write a program to predict car prices using a linear regression model and test the assumptions for linear regression.
-
-## Equipments Required:
-1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Jupyter notebook
-
-## Algorithm
-1. **Import Libraries**: Bring in essential libraries such as pandas, numpy, matplotlib, and sklearn.
-2. **Load Dataset**: Import the dataset containing car prices along with relevant features.
-3. **Data Preprocessing**: Manage missing data and select key features for the model, if required.
-4. **Split Data**: Divide the dataset into training and testing subsets.
-5. **Train Model**: Build a linear regression model and train it using the training data.
-6. **Make Predictions**: Apply the model to predict outcomes for the test set.
-7. **Evaluate Model**: Measure the model's performance using metrics like R² score, Mean Absolute Error (MAE), etc.
-8. **Check Assumptions**: Plot residuals to verify assumptions like homoscedasticity, normality, and linearity.
-9. **Output Results**: Present the predictions and evaluation metrics.
-
-## Program:
-
-```py
-
-#Program to implement linear regression model for predicting car prices and test assumptions.
-#Developed by: MOHAMMED SAAJID S
-#RegisterNumber: 212223240093
-
 
 # Import necessary libraries
 import pandas as pd
@@ -109,14 +81,3 @@ plt.figure(figsize=(8, 6))
 sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
 plt.title('Correlation Matrix')
 plt.show()
-
-
-```
-
-## Output:
-
-![alt text](image.png)
-
-
-## Result:
-Thus, the program to implement a linear regression model for predicting car prices is written and verified using Python programming, along with the testing of key assumptions for linear regression.
