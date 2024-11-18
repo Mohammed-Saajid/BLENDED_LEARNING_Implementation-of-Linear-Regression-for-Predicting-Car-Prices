@@ -1,4 +1,3 @@
-# BLENDED_LEARNING
 # Implementation-of-Linear-Regression-for-Predicting-Car-Prices
 ## AIM:
 To write a program to predict car prices using a linear regression model and test the assumptions for linear regression.
@@ -117,6 +116,21 @@ plt.show()
 
 ![alt text](image.png)
 
+1. Linearity Assumption
+
+![alt text](image-1.png)
+
+2. Homoscedasticity
+
+![alt text](image-2.png)
+
+3. Normality
+
+![alt text](image-3.png)
+
+4. Multicollinearity
+
+![alt text](image-4.png)
 
 ## Result:
 Thus, the program to implement a linear regression model for predicting car prices is written and verified using Python programming, along with the testing of key assumptions for linear regression.
